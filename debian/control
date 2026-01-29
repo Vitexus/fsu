@@ -1,0 +1,18 @@
+Source: node-fsu
+Section: javascript
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper (>= 13), dh-nodejs, nodejs
+Standards-Version: 4.6.0
+Homepage: https://github.com/adamgruber/fsu
+Vcs-Browser: https://github.com/adamgruber/fsu
+Vcs-Git: https://github.com/adamgruber/fsu.git
+Rules-Requires-Root: no
+
+Package: node-fsu
+Architecture: all
+Depends: ${misc:Depends}, ${nodejs:Depends}
+Description: File System utilities
+ FSU provides a set of file system utility functions.
+ .
+ This package contains the Node.js module.
